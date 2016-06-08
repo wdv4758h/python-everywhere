@@ -3,6 +3,10 @@
 
 
 def fib(number: int) -> int:
+    '''
+    >>> fib(10)
+    55
+    '''
     if number < 2:
         return number
     else:
@@ -10,8 +14,16 @@ def fib(number: int) -> int:
 
 
 def hello() -> None:
-    return "Hello World"
+    '''
+    >>> hello()
+    'Hello World'
+    '''
+    return 'Hello World'
 
 
 def add42(number: int) -> int:
+    '''
+    >>> add42(100)
+    142
+    '''
     return number + 42
