@@ -6,3 +6,5 @@ build
 dist
 .cache
 .eggs
+.coverage
+htmlcov
