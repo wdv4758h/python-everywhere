@@ -18,7 +18,7 @@ matrix:
 
 install:
     - "pip install -U pip"
-    - "pip install -U pytest pytest-runner flake8 mypy-lang"
+    - "pip install -U pytest pytest-runner flake8 mypy-lang coveralls"
     - "pip install ."
     - "pip freeze"
 
@@ -26,6 +26,9 @@ script:
     - python setup.py test
     - python setup.py flake8 || true
     - mypy everywhere
+
+after_success:
+    - coveralls
 
 notifications:
     email: false
