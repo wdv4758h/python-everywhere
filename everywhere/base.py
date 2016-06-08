@@ -13,7 +13,7 @@ def fib(number: int) -> int:
         return fib(number-1) + fib(number-2)
 
 
-def hello() -> None:
+def hello() -> str:
     '''
     >>> hello()
     'Hello World'
