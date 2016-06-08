@@ -1,3 +1,8 @@
+'''
+project interface
+'''
+
+
 from .base import fib, hello, add42
 
-version = "0.0.3"
+VERSION = "0.0.4"

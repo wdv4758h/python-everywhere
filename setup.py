@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 
-version = __import__('everywhere').version
+version = __import__('everywhere').VERSION
 exclude_from_packages = []
 requires = []
 

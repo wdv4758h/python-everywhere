@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+'''
+basic functions
+'''
+
 
 def fib(number: int) -> int:
     '''
