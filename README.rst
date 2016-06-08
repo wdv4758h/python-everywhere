@@ -107,7 +107,7 @@ to add chat room for your repo.
    :alt: Join the chat at https://gitter.im/wdv4758h/python-everywhere
    :target: https://gitter.im/wdv4758h/python-everywhere
 
-.. |coveralls| image:: https://coveralls.io/repos/wdv4758h/python-everywhere/badge.svg
+.. |coveralls| image:: https://coveralls.io/repos/github/wdv4758h/python-everywhere/badge.svg
    :target: https://coveralls.io/github/wdv4758h/python-everywhere
 
 .. |pypi-dm| image:: https://img.shields.io/pypi/dm/python-everywhere.svg
