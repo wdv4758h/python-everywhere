@@ -14,7 +14,7 @@ setup(
     author_email='wdv4758h@gmail.com',
     description=('A template project for Python'),
     license='BSD',
-    setup_requires=['pytest-runner'],
+    setup_requires=['pytest-runner', 'flake8'],
     tests_require=['pytest'],
     install_requires=requires,
     packages=find_packages(exclude=exclude_from_packages),
