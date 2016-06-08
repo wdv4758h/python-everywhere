@@ -2,6 +2,13 @@
 python-everywhere
 ========================================
 
+|issues|
+|travis|
+|coveralls|
+|pypi-dm|
+|gitter|
+
+
 Inspired by `rust-everywhere <https://github.com/japaric/rust-everywhere>`_.
 
 
@@ -37,6 +44,12 @@ run your test code :
 
 
 Here is the pytest's `documetation <https://pytest.org/latest/goodpractices.html#integrating-with-setuptools-python-setup-py-test-pytest-runner>`_ about integrating with setuptools.
+
+
+Coveralls
+------------------------------
+
+Please visit ``https://coveralls.io/`` to create coveralls for your repo.
 
 
 
@@ -75,3 +88,28 @@ Travis CI
 
 Please visit ``https://travis-ci.org/profile/USERNAME``
 to open Travis CI support for your repo.
+
+
+Gitter
+========================================
+
+Plase visit ``https://gitter.im/USERNAME#createroom``
+to add chat room for your repo.
+
+
+
+.. |issues| image:: https://img.shields.io/github/issues/wdv4758h/python-everywhere.svg
+   :target: https://github.com/wdv4758h/python-everywhere/issues
+
+.. |travis| image:: https://img.shields.io/travis/wdv4758h/python-everywhere.svg
+   :target: https://travis-ci.org/wdv4758h/python-everywhere
+
+.. |gitter| image:: https://badges.gitter.im/Join%20Chat.svg
+   :alt: Join the chat at https://gitter.im/wdv4758h/python-everywhere
+   :target: https://gitter.im/wdv4758h/python-everywhere
+
+.. |coveralls| image:: https://coveralls.io/repos/wdv4758h/python-everywhere/badge.svg
+   :target: https://coveralls.io/github/wdv4758h/python-everywhere
+
+.. |pypi-dm| image:: https://img.shields.io/pypi/dm/python-everywhere.svg
+   :target: https://pypi.python.org/pypi/python-everywhere
