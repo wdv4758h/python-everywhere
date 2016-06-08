@@ -2,11 +2,15 @@
 python-everywhere
 ========================================
 
+|python|
+|version|
 |issues|
 |travis|
 |license|
 |coveralls|
+|pypi-v|
 |pypi-dm|
+|pypi-dd|
 |gitter|
 
 
@@ -98,6 +102,20 @@ Please visit ``https://gitter.im/USERNAME#createroom``
 to add chat room for your repo.
 
 
+Code Climate
+========================================
+
+Please visit ``https://codeclimate.com/github/signup``
+to add automated code review for your repo.
+
+
+
+.. |python| image:: https://img.shields.io/badge/language-python-blue.svg
+   :target: https://www.python.org/
+
+.. |version| image:: https://img.shields.io/pypi/pyversions/python-everywhere.svg
+   :target: https://www.python.org/
+
 .. |issues| image:: https://img.shields.io/github/issues/wdv4758h/python-everywhere.svg
    :target: https://github.com/wdv4758h/python-everywhere/issues
 
@@ -111,7 +129,13 @@ to add chat room for your repo.
 .. |coveralls| image:: https://coveralls.io/repos/github/wdv4758h/python-everywhere/badge.svg
    :target: https://coveralls.io/github/wdv4758h/python-everywhere
 
+.. |pypi-v| image:: https://img.shields.io/pypi/v/python-everywhere.svg
+   :target: https://pypi.python.org/pypi/python-everywhere
+
 .. |pypi-dm| image:: https://img.shields.io/pypi/dm/python-everywhere.svg
+   :target: https://pypi.python.org/pypi/python-everywhere
+
+.. |pypi-dd| image:: https://img.shields.io/pypi/dd/python-everywhere.svg
    :target: https://pypi.python.org/pypi/python-everywhere
 
 .. |license| image:: https://img.shields.io/github/license/wdv4758h/python-everywhere.svg
