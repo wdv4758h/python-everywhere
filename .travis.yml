@@ -24,7 +24,6 @@ install:
 
 script:
     - python setup.py test
-    - python setup.py flake8 || true
     - mypy everywhere
 
 after_success:
