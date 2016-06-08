@@ -29,5 +29,27 @@ script:
 after_success:
     - coveralls
 
+deploy:
+    provider: releases
+    # TODO Regenerate this api_key for your project, this one won't work for you. Here's how:
+    # - Go to 'https://github.com/settings/tokens/new' and generate a Token with only the
+    # `public_repo` scope enabled
+    # - Call `travis encrypt $github_token` where $github_token is the token you got in the previous
+    # step and `travis` is the official Travis CI gem (see https://rubygems.org/gems/travis/)
+    # - Enter the "encrypted value" below
+    api_key:
+        secure: 28IOmyNkPlSxBN+jBkpWGlrAbB0/2xKkI0RV8K8zwJ2DGyLGYYucpc37Xvu1OFYdfK2yv5PZ1uUuiqXXHHh4/2c8KTA6DPj8WlTTrxWD7CVN42BLUjATqs89vPQJwZPmbEzRykAPReneBvVuXsQonyFY/KToK5CsQKUnr/lp1i1y3rtmAMc3kDG7U+qf1GYu8pNReVmgaTtGJYzQdg9ZLAu0K8UJ9RLrFvlzMKNgVHh1bHugIamnMjR6q0jjJ2uBYmLbK2nu1jMdLOyFb1u4oPRmu4Wv212lxOSIomlKXqL3FJABKJ9E5L4lbh9IVh3TjlR46i3GRKvcmrnsJ8sv9OFYe0YotCnFu47GGrRTQFite7JRVSWt7Xb8Lk1I9i8NIdbYwwU6GXDw5O9qTQlwX0wZCtgj+A/ag6bxNFedKU3e4dgAJ2JiiSN2EzNhOulp8TsTc6pwK/1bS/B2CZ8u0raFdy7LOoBxDPDbzhZn8QptL18TzlU3y/BnPQkjmOKBYwT8ZNAKFcV5lGKx+bod07gkKzLmYWzfETdjq44hE/kKNarL0uS8Cx3WUE4zavNrFGIWxTZOdLDX7IhQFi8LG38np3DbpWWi9jS7F+P/pn9bZErCbO8LDXM42VB15Tx+P0cHTMVyTbZfzNfkOZNWizkJ8Aeq1VCgXP7OEAla/so=
+    file_glob: true
+    file: ${PROJECT_NAME}-${TRAVIS_TAG}-${TARGET}.*
+    # don't delete the artifacts from previous phases
+    skip_cleanup: true
+    # deploy when a new tag is pushed
+    on:
+        # channel to use to produce the release artifacts
+        # NOTE make sure you only release *once* per target
+        # TODO you may want to pick a different channel
+        condition: $TRAVIS_PYTHON_VERSION = 3.5
+        tags: true
+
 notifications:
     email: false
