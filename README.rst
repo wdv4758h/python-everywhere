@@ -4,6 +4,7 @@ python-everywhere
 
 |issues|
 |travis|
+|license|
 |coveralls|
 |pypi-dm|
 |gitter|
@@ -112,3 +113,6 @@ to add chat room for your repo.
 
 .. |pypi-dm| image:: https://img.shields.io/pypi/dm/python-everywhere.svg
    :target: https://pypi.python.org/pypi/python-everywhere
+
+.. |license| image:: https://img.shields.io/github/license/wdv4758h/python-everywhere.svg
+   :target: https://github.com/wdv4758h/python-everywhere/blob/master/LICENSE
