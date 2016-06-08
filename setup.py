@@ -21,6 +21,7 @@ setup(
     setup_requires=['pytest-runner',
                     'coverage', 'pytest-cov',
                     'flake8', 'pytest-flake8',
+                    'pylint', 'pytest-pylint',
                     'mypy-lang'],
     tests_require=['pytest'],
     install_requires=requires,
