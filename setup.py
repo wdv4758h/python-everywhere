@@ -9,10 +9,14 @@ requires = []
 setup(
     name='python-everywhere',
     version=version,
-    url='https://YOUR_URL/',
+    url='https://github.com/wdv4758h/python-everywhere',
     author='Chiu-Hsiang Hsu',
     author_email='wdv4758h@gmail.com',
     description=('A template project for Python'),
+    long_description=open("README.rst").read(),
+    download_url="https://github.com/wdv4758h/python-everywhere/archive/v{}.zip".format(
+        version
+    ),
     license='BSD',
     setup_requires=['pytest-runner',
                     'coverage', 'pytest-cov',
