@@ -93,9 +93,8 @@ to open Travis CI support for your repo.
 Gitter
 ========================================
 
-Plase visit ``https://gitter.im/USERNAME#createroom``
+Please visit ``https://gitter.im/USERNAME#createroom``
 to add chat room for your repo.
-
 
 
 .. |issues| image:: https://img.shields.io/github/issues/wdv4758h/python-everywhere.svg
