@@ -18,7 +18,12 @@ matrix:
 
 install:
     - "pip install -U pip"
-    - "pip install -U pytest pytest-runner flake8 mypy-lang coveralls"
+    - "pip install -U pytest pytest-runner mypy-lang coveralls"
+    - "pip install -U coverage pytest-cov"
+    - "pip install -U flake8 pytest-flake8"
+    - "pip install -U pylint pytest-pylint"
+    - "pip install -U mypy-lang"
+    - "pip install -U coveralls"
     - "pip install ."
     - "pip freeze"
 
