@@ -30,7 +30,7 @@ install:
 
 script:
     - python setup.py test
-    - pycostyle everywhere
+    - pydocstyle everywhere
     - mypy everywhere
 
 after_success:
