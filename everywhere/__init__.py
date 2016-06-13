@@ -1,6 +1,4 @@
-'''
-project interface
-'''
+"""project interface."""
 
 
 from .base import fib, hello, add42
