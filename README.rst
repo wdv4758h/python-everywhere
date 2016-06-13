@@ -12,9 +12,32 @@ python-everywhere
 |pypi-dm|
 |pypi-dd|
 |gitter|
+|code-climate|
 
+
+This is a sample to help you with
+integrating services into your Python project !
 
 Inspired by `rust-everywhere <https://github.com/japaric/rust-everywhere>`_.
+
+
+.. contents:: Table of Contents
+
+
+
+Features
+========================================
+
+* Travis CI integration
+* pytest integration for testing
+* flake8 integration (invoke by pytest)
+* pylint integration (invoke by pytest)
+* coverage integration (invoke by pytest)
+* pydocstyle integration
+* mypy integration (optional static type checker)
+* Publish to PyPI with Travis CI automatically (when tagging new release)
+* Publish to GitHub with Travis CI automatically (when tagging new release)
+
 
 
 Installation
@@ -49,6 +72,15 @@ run your test code :
 
 
 Here is the pytest's `documetation <https://pytest.org/latest/goodpractices.html#integrating-with-setuptools-python-setup-py-test-pytest-runner>`_ about integrating with setuptools.
+
+
+Coverage
+------------------------------
+
+With ``coverage``, we can generate testing coverage report.
+With ``pytest-cov`` and
+``--cov-report html`` ``--cov-report term`` in the ``pytest.ini``,
+we can generate testing coverage report along with running testing code.
 
 
 Coveralls
@@ -95,15 +127,21 @@ Please visit ``https://travis-ci.org/profile/USERNAME``
 to open Travis CI support for your repo.
 
 
-Gitter
+Comunication
 ========================================
+
+Gitter
+------------------------------
 
 Please visit ``https://gitter.im/USERNAME#createroom``
 to add chat room for your repo.
 
 
-Code Climate
+Code Review
 ========================================
+
+Code Climate
+------------------------------
 
 Please visit ``https://codeclimate.com/github/signup``
 to add automated code review for your repo.
@@ -140,3 +178,6 @@ to add automated code review for your repo.
 
 .. |license| image:: https://img.shields.io/github/license/wdv4758h/python-everywhere.svg
    :target: https://github.com/wdv4758h/python-everywhere/blob/master/LICENSE
+
+.. |code-climate| image:: https://img.shields.io/codeclimate/github/wdv4758h/python-everywhere.svg
+   :target: https://codeclimate.com/github/wdv4758h/python-everywhere
