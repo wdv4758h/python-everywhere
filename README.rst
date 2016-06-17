@@ -132,8 +132,7 @@ Documentation
 
 .. code-block:: sh
 
-    sphinx-apidoc -o doc/api everywhere/
-    python setup.py build_sphinx -s doc/
+    python build_doc.py
 
 
 
