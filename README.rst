@@ -127,6 +127,16 @@ Please visit ``https://travis-ci.org/profile/USERNAME``
 to open Travis CI support for your repo.
 
 
+Documentation
+========================================
+
+.. code-block:: sh
+
+    sphinx-apidoc -o doc/api everywhere/
+    python setup.py build_sphinx -s doc/
+
+
+
 Comunication
 ========================================
 
