@@ -1,9 +1,24 @@
 from setuptools import find_packages, setup
 
 
+def mbcs_work_around():
+    '''
+    work around for mbcs codec to make "bdist_wininst" work
+    https://mail.python.org/pipermail/python-list/2012-February/620326.html
+    '''
+    import codecs
+    try:
+        codecs.lookup('mbcs')
+    except LookupError:
+        ascii = codecs.lookup('ascii')
+        codecs.register(lambda name: {True: ascii}.get(name == 'mbcs'))
+
+
 version = __import__('everywhere').VERSION
 exclude_from_packages = []
 requires = []
+
+mbcs_work_around()
 
 
 setup(
