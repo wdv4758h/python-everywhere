@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from subprocess import check_output, STDOUT
+from subprocess import run, PIPE
 import shlex
 import os
 import logging
@@ -22,12 +22,17 @@ def run_cmd(cmd, quiet=False):
         logging.info('command: {}'.format(cmd))
 
     # use shlex to keep quoted substrings
-    result = check_output(shlex.split(cmd), stderr=STDOUT).strip()
+    result = run(shlex.split(cmd), stdout=PIPE, stderr=PIPE)
+    stdout = result.stdout.strip().decode()
+    stderr = result.stderr.strip().decode()
 
-    if result and not quiet:
-        logging.debug(result.decode())
+    if stdout and not quiet:
+        logging.debug(stdout)
 
-    return result
+    if stderr:
+        logging.warning(stderr)
+
+    return result.stdout.strip()
 
 
 def build_docstring_rst():
