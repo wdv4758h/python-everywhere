@@ -29,7 +29,7 @@ def run_cmd(cmd, quiet=False):
     if stdout and not quiet:
         logging.debug(stdout)
 
-    if stderr:
+    if stderr and not quiet:
         logging.warning(stderr)
 
     return result.stdout.strip()
@@ -96,8 +96,8 @@ def commit_to_github():
     gh_token = os.environ['GH_TOKEN']
     # Please set your GH_TOKEN as Travis CI
     cmd = 'git push -fq \
-            https://{}@{}.git gh-pages:gh-pages'.format(gh_token,
-                                                        url)
+            https://{}@{} gh-pages:gh-pages'.format(gh_token,
+                                                    url)
     run_cmd(cmd, quiet=True)
 
 
