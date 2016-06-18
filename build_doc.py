@@ -49,7 +49,8 @@ def clean_old_build():
 
 
 def duplicate_old_html():
-    run_cmd('git clone -b gh-pages . {}'.format(HTML_DIR))
+    url = get_repo_url().decode()
+    run_cmd('git clone -b gh-pages {} {}'.format(url, HTML_DIR))
     run_cmd('rm -rf {html}/.git {html}/{br}'.format(html=HTML_DIR,
                                                     br=MASTER_BRANCH))
 
@@ -75,7 +76,11 @@ def get_commit_message():
 
 
 def get_repo_url():
-    return run_cmd('git remote get-url origin')
+    result = run_cmd('git remote get-url origin')
+    # older version of Git doesn't have 'get-ur' ...
+    if not result:
+        result = run_cmd('git remote -v').split()[1]
+    return result
 
 
 def commit_to_github():
