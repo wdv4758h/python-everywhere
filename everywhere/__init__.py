@@ -3,4 +3,4 @@
 
 from .base import fib, hello, add42
 
-VERSION = "0.0.9"
+VERSION = "0.1.0"
