@@ -35,6 +35,7 @@ script:
 
 after_success:
     - coveralls
+    - ./build_doc.py
 
 deploy:
     - provider: releases
