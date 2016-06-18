@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 
 from subprocess import check_output
+import logging
+
+
+logging.basicConfig(format='{levelname}:{message}',
+                    style='{',
+                    level=logging.DEBUG)
 
 DOCUMENT_FOLDER = 'doc'
 API_DOCUMENT_FOLDER = '{}/{}'.format(DOCUMENT_FOLDER, 'api')
@@ -10,9 +16,10 @@ HTML_DIR = 'html'
 
 
 def run_cmd(cmd):
-    print('running command: {}'.format(cmd))
-    result = check_output(cmd.split())
-    print(result.decode(), end='')
+    logging.info('command: {}'.format(cmd))
+    result = check_output(cmd.split()).strip()
+    if result:
+        logging.debug(result.decode())
     return result
 
 
