@@ -75,6 +75,8 @@ def get_repo_url():
 
 def commit_to_github():
     run_cmd('pip install -U ghp-import')
+    run_cmd('git config --global user.name "Travis"')
+    run_cmd('git config --global user.email wdv4758h+travis@gmail.com')
     msg = get_commit_message().decode()
     cmd = 'ghp-import -n -r origin -b gh-pages -m "{}" {}'.format(msg,
                                                                   HTML_DIR)
