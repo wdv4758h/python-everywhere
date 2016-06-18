@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from subprocess import check_output
+from subprocess import check_output, STDOUT
 import shlex
 import os
 import logging
@@ -22,7 +22,7 @@ def run_cmd(cmd, quiet=False):
         logging.info('command: {}'.format(cmd))
 
     # use shlex to keep quoted substrings
-    result = check_output(shlex.split(cmd)).strip()
+    result = check_output(shlex.split(cmd), stderr=STDOUT).strip()
 
     if result and not quiet:
         logging.debug(result.decode())
