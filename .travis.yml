@@ -17,14 +17,7 @@ matrix:
         - python: pypy3
 
 install:
-    - "pip install -U pip"
-    - "pip install -U pytest pytest-runner mypy-lang coveralls"
-    - "pip install -U coverage pytest-cov"
-    - "pip install -U flake8 pytest-flake8"
-    - "pip install -U pylint pytest-pylint"
-    - "pip install -U mypy-lang"
-    - "pip install -U pydocstyle"
-    - "pip install -U coveralls"
+    - "pip install -U -r requirements.txt"
     - "pip install ."
     - "pip freeze"
 
@@ -35,6 +28,7 @@ script:
 
 after_success:
     - coveralls
+    - pip install -U -r requirements-docs.txt
     - ./build_doc.py
 
 deploy:
