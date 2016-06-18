@@ -17,19 +17,13 @@ matrix:
         - python: pypy3
 
 install:
-    - "pip install -U -r requirements.txt"
-    - "pip install ."
-    - "pip freeze"
+    - sh ci/install.sh
 
 script:
-    - python setup.py test
-    - pydocstyle everywhere
-    - mypy everywhere
+    - sh ci/script.sh
 
 after_success:
-    - coveralls
-    - pip install -U -r requirements-docs.txt
-    - ./build_doc.py
+    - sh ci/after_success.sh
 
 deploy:
     - provider: releases
