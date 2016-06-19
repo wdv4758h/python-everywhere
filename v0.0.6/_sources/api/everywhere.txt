@@ -1,0 +1,22 @@
+everywhere package
+==================
+
+Submodules
+----------
+
+everywhere.base module
+----------------------
+
+.. automodule:: everywhere.base
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: everywhere
+    :members:
+    :undoc-members:
+    :show-inheritance:

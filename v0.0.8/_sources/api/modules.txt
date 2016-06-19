@@ -1,0 +1,7 @@
+everywhere
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   everywhere
