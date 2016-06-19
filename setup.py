@@ -1,6 +1,18 @@
 from setuptools import find_packages, setup, Extension
 
 
+def cythonize(*args, **kwargs):
+    '''
+    dirty hack, only import cythonize at the time you use it.
+
+    if you don't write Cython extension,
+    you won't fail even if you don't install Cython.
+    '''
+    global cythonize
+    from Cython.Build import cythonize
+    return cythonize(*args, **kwargs)
+
+
 def mbcs_work_around():
     '''
     work around for mbcs codec to make "bdist_wininst" work
@@ -21,6 +33,10 @@ extensions = [
     # TODO write your own extensions
     Extension('everywhere._base',
               sources=['everywhere/_base.c']),
+    *cythonize(
+        Extension('everywhere._base_cy',
+                  sources=['everywhere/_base_cy.pyx']),
+    ),
 ]
 
 mbcs_work_around()
