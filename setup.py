@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import find_packages, setup, Extension
 
 
 def mbcs_work_around():
@@ -17,6 +17,11 @@ def mbcs_work_around():
 version = __import__('everywhere').VERSION
 exclude_from_packages = []
 requires = []
+extensions = [
+    # TODO write your own extensions
+    Extension('everywhere._base',
+              sources=['everywhere/_base.c']),
+]
 
 mbcs_work_around()
 
@@ -43,6 +48,7 @@ setup(
     install_requires=requires,
     packages=find_packages(exclude=exclude_from_packages),
     include_package_data=True,
+    ext_modules=extensions,
     scripts=[],
     extras_require={},
     zip_safe=False,
