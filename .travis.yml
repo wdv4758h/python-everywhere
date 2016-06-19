@@ -14,9 +14,11 @@ python:
   - pypy
   - pypy3
 
+# TODO add/remove targets to meet your need
 matrix:
     allow_failures:
         - python: 2.7
+        - python: 3.4
         - python: nightly
         - python: pypy
         - python: pypy3
