@@ -13,8 +13,7 @@ def fib(number: int) -> int:
     """
     if number < 2:
         return number
-    else:
-        return fib(number-1) + fib(number-2)
+    return fib(number-1) + fib(number-2)
 
 
 def hello() -> str:
