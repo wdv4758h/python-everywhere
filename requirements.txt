@@ -1,14 +1,23 @@
-pip
-wheel
-cython  # extension
-pytest
-pytest-runner
-coverage
-pytest-cov
-flake8
-pytest-flake8
-pylint
-pytest-pylint
-mypy-lang
-pydocstyle
-coveralls
+# pip
+# wheel
+
+cython==0.27.1
+
+# key components for improving Python project
+# we will install them on "Testing" section
+# but let's lock version here and use bot to trigger each version update
+pydocstyle==2.1.1
+pylint==1.7.4
+# flake8==3.4.1
+mypy-lang==0.5.0
+coverage==4.4.1
+
+# Testing
+pytest==3.2.3
+# pytest-flake8==0.8.1  # pytest plugin of flake8
+pytest-pylint==0.7.1    # pytest plugin of pylint
+pytest-mypy==0.3.0      # pytest plugin of mypy
+pytest-cov==2.5.1       # testing coverage
+pytest-runner==2.12.1   # add setup.py test support for pytest
+
+coveralls==1.2.0
