@@ -2,8 +2,10 @@
 Project's testing code
 '''
 
+
 import pytest
-from everywhere._base import fib, hello, add42
+
+import everywhere._base as EVERYWHERE
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -19,14 +21,14 @@ def test_fib(test_input, expected):
     '''
     test fib
     '''
-    assert fib(test_input) == expected
+    assert EVERYWHERE.fib(test_input) == expected
 
 
 def test_hello():
     '''
     test hello
     '''
-    assert hello() == "Hello World"
+    assert EVERYWHERE.hello() == "Hello World"
 
 
 @pytest.mark.parametrize("test_input, expected", [
@@ -39,4 +41,4 @@ def test_add42(test_input, expected):
     '''
     test add42
     '''
-    assert add42(test_input) == expected
+    assert EVERYWHERE.add42(test_input) == expected
