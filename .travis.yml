@@ -10,6 +10,7 @@ python:
   - 2.7
   - 3.4
   - 3.5
+  - 3.6
   - nightly
   - pypy
   - pypy3
@@ -56,7 +57,7 @@ deploy:
         # channel to use to produce the release artifacts
         # NOTE make sure you only release *once* per target
         # TODO you may want to pick a different channel
-        condition: $TRAVIS_PYTHON_VERSION = 3.5
+        condition: $TRAVIS_PYTHON_VERSION = 3.6
         tags: true
 
     - provider: pypi
@@ -66,7 +67,7 @@ deploy:
       distributions: "sdist bdist_wheel" # Your distributions here
       on:
         branch: master
-        condition: $TRAVIS_PYTHON_VERSION = 3.5
+        condition: $TRAVIS_PYTHON_VERSION = 3.6
         tags: true
 
 notifications:
