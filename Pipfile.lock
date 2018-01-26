@@ -225,10 +225,10 @@
         },
         "py": {
             "hashes": [
-                "sha256:e6fda4487ef65a3dc89f95dc9a27141e7b0fb365a3e2c619f78288d959c7092d",
-                "sha256:e85aaa3c2e837413c6387eb2a4efbe7ff93658813d13986da004984ffe84b3a3"
+                "sha256:8cca5c229d225f8c1e3085be4fcf306090b00850fefad892f9d96c7b6e2f310f",
+                "sha256:ca18943e28235417756316bfada6cd96b23ce60dd532642690dcfdaba988a76d"
             ],
-            "version": "==1.5.1"
+            "version": "==1.5.2"
         },
         "pydocstyle": {
             "hashes": [
