@@ -150,10 +150,10 @@
         },
         "isort": {
             "hashes": [
-                "sha256:cd5d3fc2c16006b567a17193edf4ed9830d9454cbeb5a42ac80b36ea00c23db4",
-                "sha256:79f46172d3a4e2e53e7016e663cc7a8b538bec525c36675fcfd2767df30b3983"
+                "sha256:385910ab5c46e364f496672634076ac612eeffd60f1007ebb050701c722ec870",
+                "sha256:beff82862fc587bef031c8b60485e41e1362d1f1cf1904be2aefb9f0027884c7"
             ],
-            "version": "==4.2.15"
+            "version": "==4.3.0"
         },
         "lazy-object-proxy": {
             "hashes": [
