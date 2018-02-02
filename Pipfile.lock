@@ -268,15 +268,15 @@
         },
         "pytest-pylint": {
             "hashes": [
-                "sha256:9b8ca25823b2f39e89d8170453f5282e57b973395060e838ced5f8c09271ca65",
-                "sha256:2efaf761472637df9a8f4a3f4fac37f8ce433d70957c5f5767c4be322a42a3d2",
-                "sha256:9f38725b22967a56724115c9df0a93dda37fea71dd5495fb1354b82e3d938d0d",
-                "sha256:85da6403c69eb715b9703df640818f337603f2cac947f932b033588851aaaf16",
-                "sha256:b85763dc36757bfb736b07fecb4f67a0892dcb00868e01f150c7424f608bd62e",
-                "sha256:ec63f7c4c05331654ab54fda8e68b8a11512009d506a8e35ee9b6d40a359356d",
-                "sha256:2bb26948f0355d14b274742153a6b4daa51e6d60481143bfd7f025699a27210d"
+                "sha256:aa41ed2e8671e72bc40ab33f43232fdac712a316e177b4bfc23c6e685bd6b5cc",
+                "sha256:644f50217834099886c951bc5d034938ae305c530aa45d8866ecacd3b50d268b",
+                "sha256:9c9a3c13e1f15e674a7503a921fe1332239016718e3496e4c83990f266a79bc6",
+                "sha256:de36a9edfc0c3cf46412634d308b97ef78e953edaf45a150feaf372ceac18c4a",
+                "sha256:a9975080aff6030edb344ec9ea7297ce9e0c623ae06b406f4e9ebf8773975b6d",
+                "sha256:879aa6445bcb11840f3bc96265aa1a89168ab22e6f4a1b4a94200d99d86ca4be",
+                "sha256:41d6f223ae5e0a0fbb0056e826ecdb8046be2a828eba55c0d4f66cbfd7d27168"
             ],
-            "version": "==0.7.1"
+            "version": "==0.8.0"
         },
         "pytest-runner": {
             "hashes": [
