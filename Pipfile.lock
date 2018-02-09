@@ -146,10 +146,11 @@
         },
         "isort": {
             "hashes": [
-                "sha256:4b5f50fa1fe37226cd95acaa723409d6d6b38344e29003191da7c76f11352b51",
-                "sha256:c8756e8058877321a3891939d0c294ad32c8b7cb87a923ebf00f179b33cb1f96"
+                "sha256:75e94757591197eb0afeb1f3b54f6517c1a26fecaeab2b373885739f63de3e66",
+                "sha256:77502c541ad5c40a158932498bf6177bb663d8a2662b50f02a59b906419ba699",
+                "sha256:34929af733faadf884da29d83e7df1884363b3cc647a48e000b3c5cc13d17549"
             ],
-            "version": "==4.3.2"
+            "version": "==4.3.3"
         },
         "lazy-object-proxy": {
             "hashes": [
