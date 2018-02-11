@@ -277,10 +277,10 @@
         },
         "pytest-runner": {
             "hashes": [
-                "sha256:71e581622a1fad23cf12c1c1bd23e826e3358ab10b28c6e7e1a88f2f4489bf2f",
-                "sha256:0f7c3a3cf5aead13f54baaa01ceb49e5ae92aba5d3ff1928e81e189c40bc6703"
+                "sha256:06a286842b3b15fcc9d54f5ad1e7c6e25249f2c9e295f15ad49d7f0ecf63660a",
+                "sha256:183f3745561b1e00ea51cd97634ba5c540848ab4aa8016a81faba7fb7f33ec76"
             ],
-            "version": "==3.0"
+            "version": "==4.0"
         },
         "requests": {
             "hashes": [
