@@ -10,7 +10,7 @@ pydocstyle==2.1.1
 pylint==1.8.2
 # flake8==3.4.1
 mypy-lang==0.5.0
-coverage==4.5
+coverage==4.5.1
 
 # Testing
 pytest==3.4.0
