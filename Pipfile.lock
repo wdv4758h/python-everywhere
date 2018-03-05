@@ -265,15 +265,11 @@
         },
         "pytest-pylint": {
             "hashes": [
-                "sha256:aa41ed2e8671e72bc40ab33f43232fdac712a316e177b4bfc23c6e685bd6b5cc",
-                "sha256:644f50217834099886c951bc5d034938ae305c530aa45d8866ecacd3b50d268b",
-                "sha256:9c9a3c13e1f15e674a7503a921fe1332239016718e3496e4c83990f266a79bc6",
-                "sha256:de36a9edfc0c3cf46412634d308b97ef78e953edaf45a150feaf372ceac18c4a",
-                "sha256:a9975080aff6030edb344ec9ea7297ce9e0c623ae06b406f4e9ebf8773975b6d",
-                "sha256:879aa6445bcb11840f3bc96265aa1a89168ab22e6f4a1b4a94200d99d86ca4be",
-                "sha256:41d6f223ae5e0a0fbb0056e826ecdb8046be2a828eba55c0d4f66cbfd7d27168"
+                "sha256:520c2e3657c51850e5ba9bc5b845394f784262bd74b67ad3c0b209a0b7a12351",
+                "sha256:d5d7d9e1d11a338d527f58dfe213b6d6cab778dc008f0dfe622887f6921c271f",
+                "sha256:d084d71140ba4442e2925db9281ce1091adb6a19d5438f81d2873e949bbb749c"
             ],
-            "version": "==0.8.0"
+            "version": "==0.9.0"
         },
         "pytest-runner": {
             "hashes": [
