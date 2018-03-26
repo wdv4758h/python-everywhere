@@ -15,7 +15,7 @@ coverage==4.5.1
 # Testing
 pytest==3.5.0
 # pytest-flake8==0.8.1  # pytest plugin of flake8
-pytest-pylint==0.8.0    # pytest plugin of pylint
+pytest-pylint==0.9.0    # pytest plugin of pylint
 pytest-mypy==0.3.0      # pytest plugin of mypy
 pytest-cov==2.5.1       # testing coverage
 pytest-runner==4.0   # add setup.py test support for pytest
