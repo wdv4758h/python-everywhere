@@ -269,11 +269,11 @@
         },
         "pytest-pylint": {
             "hashes": [
-                "sha256:520c2e3657c51850e5ba9bc5b845394f784262bd74b67ad3c0b209a0b7a12351",
-                "sha256:d5d7d9e1d11a338d527f58dfe213b6d6cab778dc008f0dfe622887f6921c271f",
-                "sha256:d084d71140ba4442e2925db9281ce1091adb6a19d5438f81d2873e949bbb749c"
+                "sha256:9780ce7f0dad578bf92942d998092f3595253ffb9bbe58d2867fc75e86c06b8a",
+                "sha256:03ee4df689e93ffa9aee2df23a7c0960d41e188f2e863a0a5a7e4b8779c4416e",
+                "sha256:888acad0032dc8bf7481071dd1d6b7c2f3ec58b7856e2dd71380435e7bde3038"
             ],
-            "version": "==0.9.0"
+            "version": "==0.11.0"
         },
         "pytest-runner": {
             "hashes": [
