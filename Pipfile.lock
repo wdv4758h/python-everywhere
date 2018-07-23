@@ -226,11 +226,8 @@
             "version": "==2.5.1"
         },
         "pytest-mypy": {
-            "hashes": [
-                "sha256:9d1b54fa023f2f7e0fd8c52f7486e04c9c0d0dc410623183b0327a3645b7dea5",
-                "sha256:624251b97469291b94cd6288bb514724ce0ecc23f46d27b198a1b928291a4713"
-            ],
-            "version": "==0.3.0"
+            "hashes": [],
+            "version": "==0.3.2"
         },
         "pytest-pylint": {
             "hashes": [],
