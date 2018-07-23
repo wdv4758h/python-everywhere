@@ -206,10 +206,10 @@
         },
         "pylint": {
             "hashes": [
-                "sha256:0b7e6b5d9f1d4e0b554b5d948f14ed7969e8cdf9a0120853e6e5af60813b18ab",
-                "sha256:34738a82ab33cbd3bb6cd4cef823dbcabdd2b6b48a4e3a3054a2bbbf0c712be9"
+                "sha256:454532779425098969b8f54ab0f056000b883909f69d05905ea114df886e3251",
+                "sha256:2c90a24bee8fae22ac98061c896e61f45c5b73c2e0511a4bf53f99ba56e90434"
             ],
-            "version": "==1.8.4"
+            "version": "==2.0.1"
         },
         "pytest": {
             "hashes": [
