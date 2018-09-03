@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-cython = "==0.28.2"
+cython = "==0.28.5"
 pydocstyle = "==2.1.1"
 pylint = "==1.8.4"
 mypy-lang = "==0.5.0"
