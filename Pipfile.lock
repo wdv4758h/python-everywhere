@@ -198,10 +198,10 @@
         },
         "mypy": {
             "hashes": [
-                "sha256:673ea75fb750289b7d1da1331c125dc62fc1c3a8db9129bb372ae7b7d5bf300a",
-                "sha256:c770605a579fdd4a014e9f0a34b6c7a36ce69b08100ff728e96e27445cef3b3c"
+                "sha256:fb90c804b84cfd8133d3ddfbd630252694d11ccc1eb0166a1b2efb5da37ecab2",
+                "sha256:8e071ec32cc226e948a34bbb3d196eb0fd96f3ac69b6843a5aff9bd4efa14455"
             ],
-            "version": "==0.620"
+            "version": "==0.641"
         },
         "mypy-lang": {
             "hashes": [
