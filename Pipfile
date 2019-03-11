@@ -17,7 +17,7 @@ pytest-pylint = "==0.14.0"
 pytest-mypy = "==0.3.2"
 pytest-cov = "==2.6.1"
 pytest-runner = "==4.4"
-coveralls = "==1.5.1"
+coveralls = "==1.6.0"
 
 
 [dev-packages]
