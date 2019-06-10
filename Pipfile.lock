@@ -96,10 +96,10 @@
         },
         "coveralls": {
             "hashes": [
-                "sha256:b2388747e2529fa4c669fb1e3e2756e4e07b6ee56c7d9fce05f35ccccc913aa0",
-                "sha256:ab638e88d38916a6cedbf80a9cd8992d5fa55c77ab755e262e00b36792b7cd6d"
+                "sha256:a8de28a5f04e418c7142b8ce6588c3a64245b433c458a5871cb043383667e4f2",
+                "sha256:c5e50b73b980d89308816b597e3e7bdeb0adedf831585d5c4ac967d576f8925d"
             ],
-            "version": "==1.5.1"
+            "version": "==1.8.0"
         },
         "cython": {
             "hashes": [
