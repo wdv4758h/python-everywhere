@@ -259,10 +259,10 @@
         },
         "pytest-mypy": {
             "hashes": [
-                "sha256:8f6436eed8118afd6c10a82b3b60fb537336736b0fd7a29262a656ac42ce01ac",
-                "sha256:acc653210e7d8d5c72845a5248f00fd33f4f3379ca13fe56cfc7b749b5655c3e"
+                "sha256:419d1d4877d41a6a80f0eb31faa7c50bb9445557f7ff1b02a1a26d10d7dc7691",
+                "sha256:917438af835beb87f14c9f6261137f8e992b3bf87ebf73f836ac7ede03424a0f"
             ],
-            "version": "==0.3.2"
+            "version": "==0.3.3"
         },
         "pytest-pylint": {
             "hashes": [
