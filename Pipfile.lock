@@ -255,10 +255,10 @@
         },
         "pytest-mypy": {
             "hashes": [
-                "sha256:8f6436eed8118afd6c10a82b3b60fb537336736b0fd7a29262a656ac42ce01ac",
-                "sha256:acc653210e7d8d5c72845a5248f00fd33f4f3379ca13fe56cfc7b749b5655c3e"
+                "sha256:3b7b56912d55439d5f447cc609f91caac7f74f0f1c89f1379d04f06bac777c32",
+                "sha256:5a5338cecff17f005b181546a13e282761754b481225df37f33d37f86ac5b304"
             ],
-            "version": "==0.3.2"
+            "version": "==0.4.2"
         },
         "pytest-pylint": {
             "hashes": [
