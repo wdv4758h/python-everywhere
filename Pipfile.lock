@@ -476,10 +476,10 @@
         },
         "sphinx": {
             "hashes": [
-                "sha256:429e3172466df289f0f742471d7e30ba3ee11f3b5aecd9a840480d03f14bcfe5",
-                "sha256:c4cb17ba44acffae3d3209646b6baec1e215cad3065e852c68cc569d4df1b9f8"
+                "sha256:b3feeed2da588adabd0db5329a309f27317e98382122721511e901833d092028",
+                "sha256:fb2ce74c28154872757925edda0060b4c4102cdc86b8b30063f23399678de2ca"
             ],
-            "version": "==1.8.3"
+            "version": "==2.4.0"
         },
         "sphinxcontrib-websupport": {
             "hashes": [
