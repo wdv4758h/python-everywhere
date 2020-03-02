@@ -15,7 +15,7 @@ coverage = "==5.0.3"
 pytest = "==5.3.5"
 pytest-pylint = "==0.15.0"
 pytest-mypy = "==0.5.0"
-pytest-cov = "==2.6.0"
+pytest-cov = "==2.8.1"
 pytest-runner = "==4.2"
 coveralls = "==1.5.1"
 
