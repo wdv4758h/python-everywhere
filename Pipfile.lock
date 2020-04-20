@@ -224,10 +224,10 @@
         },
         "py": {
             "hashes": [
-                "sha256:e76826342cefe3c3d5f7e8ee4316b80d1dd8a300781612ddbc765c17ba25a6c6",
-                "sha256:bf92637198836372b520efcba9e020c330123be8ce527e535d185ed4b6f45694"
+                "sha256:5e27081401262157467ad6e7f851b7aa402c5852dbcb3dae06768434de5752aa",
+                "sha256:c20fdd83a5dbc0af9efd622bee9a5564e278f6380fffcacc43ba6f43db2813b0"
             ],
-            "version": "==1.7.0"
+            "version": "==1.8.1"
         },
         "pydocstyle": {
             "hashes": [
