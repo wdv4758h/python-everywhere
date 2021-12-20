@@ -1,2 +1,2 @@
-sphinx==1.8.3
+sphinx==4.3.2
 ghp-import==0.5.5
