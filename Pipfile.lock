@@ -29,10 +29,10 @@
     "default": {
         "astroid": {
             "hashes": [
-                "sha256:6a5d668d7dc69110de01cdf7aeec69a679ef486862a0850cc0fd5571505b6b7e",
-                "sha256:35b032003d6a863f5dcd7ec11abd5cd5893428beaa31ab164982403bcb311f22"
+                "sha256:d56f6a5239981567ceaa3413d4971936c7b4b0c796fcff90c24254dcf8b05b62",
+                "sha256:e59b9d0788aa8ded1a49172ff5d4cd26d5d5aa9cb2dacd50a03a3bbf05d3cc92"
             ],
-            "version": "==2.1.0"
+            "version": "==2.11.0"
         },
         "certifi": {
             "hashes": [
