@@ -251,10 +251,10 @@
         },
         "pylint": {
             "hashes": [
-                "sha256:771467c434d0d9f081741fec1d64dfb011ed26e65e12a28fe06ca2f61c4d556c",
-                "sha256:689de29ae747642ab230c6d37be2b969bf75663176658851f456619aacf27492"
+                "sha256:549261e0762c3466cc001024c4419c08252cb8c8d40f5c2c6966fea690e7fe2a",
+                "sha256:bb71e6d169506de585edea997e48d9ff20c0dc0e2fbc1d166bad6b640120326b"
             ],
-            "version": "==2.2.2"
+            "version": "==2.14.1"
         },
         "pytest": {
             "hashes": [
