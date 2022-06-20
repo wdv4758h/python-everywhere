@@ -381,9 +381,10 @@
         },
         "ghp-import": {
             "hashes": [
-                "sha256:3e924ea720e4e1f82d56753db2154bfb86067472c5830732159c3a4c4fbc75d7"
+                "sha256:8337dd7b50877f163d4c0289bc1f1c7f127550241988d568c1db512c4324a619",
+                "sha256:9c535c4c61193c2df8871222567d7fd7e5014d835f97dc7b7439069e2413d343"
             ],
-            "version": "==0.5.5"
+            "version": "==2.1.0"
         },
         "idna": {
             "hashes": [
