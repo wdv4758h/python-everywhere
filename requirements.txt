@@ -20,4 +20,4 @@ pytest-mypy==0.9.1      # pytest plugin of mypy
 pytest-cov==3.0.0       # testing coverage
 pytest-runner==6.0.0   # add setup.py test support for pytest
 
-coveralls==1.5.1
+coveralls==3.3.1
