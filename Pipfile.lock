@@ -88,11 +88,8 @@
             "version": "==5.9.2"
         },
         "py": {
-            "hashes": [
-                "sha256:e76826342cefe3c3d5f7e8ee4316b80d1dd8a300781612ddbc765c17ba25a6c6",
-                "sha256:bf92637198836372b520efcba9e020c330123be8ce527e535d185ed4b6f45694"
-            ],
-            "version": "==1.7.0"
+            "hashes": [],
+            "version": "==1.11.0"
         },
         "pydocstyle": {
             "hashes": [],
