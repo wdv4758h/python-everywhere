@@ -10,7 +10,7 @@ sphinx = "==5.2.3"
 [packages]
 coverage = "==4.5.2"
 coveralls = "==1.5.1"
-cython = "==0.29.2"
+cython = "==0.29.32"
 mypy-lang = "==0.5.0"
 pydocstyle = "==3.0.0"
 pylint = "==2.2.2"
