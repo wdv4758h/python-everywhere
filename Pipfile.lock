@@ -193,11 +193,8 @@
             "version": "==2.13.0"
         },
         "pytz": {
-            "hashes": [
-                "sha256:8e0f8568c118d3077b46be7d654cc8167fa916092e28320cde048e54bfc9f1e6",
-                "sha256:31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca"
-            ],
-            "version": "==2018.7"
+            "hashes": [],
+            "version": "==2022.5"
         },
         "requests": {
             "hashes": [],
