@@ -475,11 +475,8 @@
             "version": "==1.2.1"
         },
         "sphinx": {
-            "hashes": [
-                "sha256:429e3172466df289f0f742471d7e30ba3ee11f3b5aecd9a840480d03f14bcfe5",
-                "sha256:c4cb17ba44acffae3d3209646b6baec1e215cad3065e852c68cc569d4df1b9f8"
-            ],
-            "version": "==1.8.3"
+            "hashes": [],
+            "version": "==5.3.0"
         },
         "sphinxcontrib-websupport": {
             "hashes": [
