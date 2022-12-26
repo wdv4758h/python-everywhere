@@ -74,11 +74,8 @@
             "version": "==0.7.0"
         },
         "mypy": {
-            "hashes": [
-                "sha256:12d965c9c4e8a625673aec493162cf390e66de12ef176b1f4821ac00d55f3ab3",
-                "sha256:38d5b5f835a81817dcc0af8d155bce4e9aefa03794fe32ed154d6612e83feafa"
-            ],
-            "version": "==0.650"
+            "hashes": [],
+            "version": "==0.991"
         },
         "mypy-lang": {
             "hashes": [
