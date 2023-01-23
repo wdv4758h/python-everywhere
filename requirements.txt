@@ -1,7 +1,7 @@
 # pip
 # wheel
 
-cython==0.29.2
+cython==0.29.33
 
 # key components for improving Python project
 # we will install them on "Testing" section
