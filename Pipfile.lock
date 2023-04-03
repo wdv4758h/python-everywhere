@@ -186,12 +186,8 @@
             "version": "==0.3.2"
         },
         "pytest-pylint": {
-            "hashes": [
-                "sha256:5265fc9f9b8286c56535f521c8bed22d2510e54f779e161f01306e6a53390730",
-                "sha256:605bc4eea24b15e45bc7658dabce8c6932a8e9ded765cfa4a5f5cd62db77794d",
-                "sha256:50500fa8ecd7f7ca8e1d08e4c2c8748ae376a95745d3574861a86d642d9ed9b3"
-            ],
-            "version": "==0.13.0"
+            "hashes": [],
+            "version": "==0.19.0"
         },
         "pytest-runner": {
             "hashes": [
