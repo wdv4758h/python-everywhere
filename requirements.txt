@@ -1,23 +1,23 @@
 # pip
 # wheel
 
-cython==0.29.2
+cython==0.29.35
 
 # key components for improving Python project
 # we will install them on "Testing" section
 # but let's lock version here and use bot to trigger each version update
-pydocstyle==3.0.0
-pylint==2.2.2
+pydocstyle==6.3.0
+pylint==2.17.4
 # flake8==3.4.1
 mypy-lang==0.5.0
-coverage==4.5.2
+coverage==7.2.7
 
 # Testing
-pytest==4.0.2
+pytest==7.4.0
 # pytest-flake8==0.8.1  # pytest plugin of flake8
-pytest-pylint==0.13.0    # pytest plugin of pylint
-pytest-mypy==0.3.2      # pytest plugin of mypy
-pytest-cov==2.6.0       # testing coverage
-pytest-runner==4.2   # add setup.py test support for pytest
+pytest-pylint==0.19.0    # pytest plugin of pylint
+pytest-mypy==0.10.3      # pytest plugin of mypy
+pytest-cov==4.1.0       # testing coverage
+pytest-runner==6.0.0   # add setup.py test support for pytest
 
-coveralls==1.5.1
+coveralls==3.3.1
